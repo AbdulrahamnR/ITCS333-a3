@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/pico-css">
+    <title>Student Enrollment Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #ff4d4d; /* Changed to red */
+            color: #fff;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+<h1>University of Bahrain Students Enrollment by Nationality</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Semester</th>
+            <th>The Programs</th>
+            <th>Nationality</th>
+            <th>Colleges</th>
+            <th>Number of Students</th>
+        </tr>
+    </thead>
+    <tbody id="data-table-body">
+        <!-- Dynamic data will be inserted here -->
+    </tbody>
+</table>
+</body>
+</html>
